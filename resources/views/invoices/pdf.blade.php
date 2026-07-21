@@ -159,7 +159,7 @@
                     <td>{{ $attendance->check_in_at->format('H:i') }}</td>
                     <td>{{ $attendance->check_out_at->format('H:i') }}</td>
                     <td>
-                        @if ($attendance->check_in_photo && file_exists(public_path('storage/' . $attendance->check_in_photo)))
+                        @if ($attendance->check_in_photo)
                         <a href="{{ asset('storage/' . $attendance->check_in_photo) }}" target="_blank">
                             <img src="{{ asset('storage/' . $attendance->check_in_photo) }}" alt="Photo In">
                         </a>
@@ -168,7 +168,7 @@
                         @endif
                     </td>
                     <td>
-                        @if ($attendance->check_out_photo && file_exists(public_path('storage/' . $attendance->check_out_photo)))
+                        @if ($attendance->check_out_photo)
                         <a href="{{ asset('storage/' . $attendance->check_out_photo) }}" target="_blank">
                             <img src="{{ asset('storage/' . $attendance->check_out_photo) }}" alt="Photo Out">
                         </a>
