@@ -35,7 +35,7 @@
     <div class="login-wrapper d-flex align-items-center justify-content-center">
         <div class="custom-container">
             <div class="text-center px-4">
-                <img class="login-intro-img" src="{{ asset('assets/img/logo/PAS-500x500.png') }}" alt="">
+                <img class="login-intro-img" src="{{ asset('assets/img/logo/pas-biru-rb.png') }}" alt="">
             </div>
 
             <div class="register-form mt-4">

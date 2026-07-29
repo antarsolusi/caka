@@ -40,7 +40,7 @@
             <div class="header-content header-style-five position-relative d-flex align-items-center justify-content-between">
                 <div class="logo-wrapper">
                     <a href="{{ route('dashboard') }}">
-                        <img src="{{ asset('assets/img/logo/logo-1.png') }}" alt="">
+                        <img src="{{ asset('assets/img/logo/pas-biru-rb.png') }}" alt="">
                     </a>
                 </div>
 
